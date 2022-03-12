@@ -1,0 +1,5 @@
+#Identify and display the Ethernet interface characteristics:
+#A
+ifconfig en0 | grep "inet " | cut -d " " -f 6
+#B
+
